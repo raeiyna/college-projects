@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>895</width>
+    <height>1017</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>765</width>
+    <height>637</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {
+	border-image: url(:/image/BG.png);
+}
+</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonFollowStyle</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_4">
+    <item row="1" column="1">
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">QFrame {
+    background-color: rgba(255, 255, 255, 0.15); /* Light transparency */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
+    border-radius: 15px;
+    backdrop-filter: blur(12px); /* Blur effect */
+}
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="1">
+        <spacer name="verticalSpacer_4">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="2" column="0" colspan="3">
+        <widget class="QFrame" name="frame_2">
+         <property name="styleSheet">
+          <string notr="true">QFrame {
+    background: transparent;
+    border: none;
+    border-radius: 15px; /* Keep rounded corners */
+}
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <property name="lineWidth">
+          <number>1</number>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <spacer name="verticalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+    font-size: 13px;
+    font-weight: bold;
+    color: white; /* Dark blue/gray for a modern look */
+    background: transparent;
+	border: none;
+}
+</string>
+            </property>
+            <property name="text">
+             <string>First Name</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="firstname">
+            <property name="styleSheet">
+             <string notr="true">QLineEdit {
+    background-color: white;
+    border: 1px solid #B8D5E7;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 10px;
+    color: #215988;
+    selection-background-color: #FF5929;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+QLineEdit:focus {
+    border: 1px solid #FF5929;
+    box-shadow: 0px 0px 5px rgba(255, 89, 41, 0.3);
+    background-color: white;
+}</string>
+            </property>
+            <property name="inputMethodHints">
+             <set>Qt::ImhNone</set>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="placeholderText">
+             <string>FIRST NAME</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_12">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+    font-size: 13px;
+    font-weight: bold;
+    color: white; /* Dark blue/gray for a modern look */
+    background: transparent;
+	border: none;
+}
+</string>
+            </property>
+            <property name="text">
+             <string>Middle Name</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="middlename">
+            <property name="styleSheet">
+             <string notr="true">QLineEdit {
+    background-color: white;
+    border: 1px solid #B8D5E7;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 10px;
+    color: #215988;
+    selection-background-color: #FF5929;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+QLineEdit:focus {
+    border: 1px solid #FF5929;
+    box-shadow: 0px 0px 5px rgba(255, 89, 41, 0.3);
+    background-color: white;
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="placeholderText">
+             <string>MIDDLE NAME</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+    font-size: 13px;
+    font-weight: bold;
+    color: white; /* Dark blue/gray for a modern look */
+    background: transparent;
+	border: none;
+}
+</string>
+            </property>
+            <property name="text">
+             <string>Last Name</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lastname">
+            <property name="styleSheet">
+             <string notr="true">QLineEdit {
+    background-color: white;
+    border: 1px solid #B8D5E7;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 10px;
+    color: #215988;
+    selection-background-color: #FF5929;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+QLineEdit:focus {
+    border: 1px solid #FF5929;
+    box-shadow: 0px 0px 5px rgba(255, 89, 41, 0.3);
+    background-color: white;
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="placeholderText">
+             <string>LAST NAME</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_13">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+    font-size: 13px;
+    font-weight: bold;
+    color: white; /* Dark blue/gray for a modern look */
+    background: transparent;
+	border: none;
+}
+</string>
+            </property>
+            <property name="inputMethodHints">
+             <set>Qt::ImhUppercaseOnly</set>
+            </property>
+            <property name="text">
+             <string>Name Suffix</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="suffix">
+            <property name="styleSheet">
+             <string notr="true">QComboBox {
+    background-color: white;
+    border: 1px solid #B8D5E7;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 12px;
+    color: #215988;
+    selection-background-color: #FF5929;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Highlight effect when focused */
+QComboBox:focus {
+    border: 1px solid #FF5929;
+    box-shadow: 0px 0px 5px rgba(255, 89, 41, 0.3);
+    background-color: white;
+}
+
+/* Style the popup list */
+QComboBox QAbstractItemView {
+    background: white;
+    border: 1px solid #B8D5E7;
+    selection-background-color: #FF5929;
+    color: #21
+}</string>
+            </property>
+            <item>
+             <property name="text">
+              <string>Select Suffix</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Sr</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Jr</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>I</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>II</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>III</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_7">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+    font-size: 13px;
+    font-weight: bold;
+    color: white; /* Dark blue/gray for a modern look */
+    background: transparent;
+	border: none;
+}
+</string>
+            </property>
+            <property name="text">
+             <string>Birthdate</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QDateEdit" name="birthdate">
+            <property name="styleSheet">
+             <string notr="true">QLineEdit, QDateEdit {
+    background-color: white;
+    border: 1px solid #B8D5E7;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 12px;
+    color: #215988;
+    selection-background-color: #FF5929;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+QLineEdit:focus, QDateEdit:focus {
+    border: 1px solid #FF5929;
+    box-shadow: 0px 0px 5px rgba(255, 89, 41, 0.3);
+    background-color: white;
+}
+
+QCalendarWidget QWidget {
+    background-color: white;
+    color: black;
+}
+
+QCalendarWidget QAbstractItemView {
+    background-color: white;
+    color: black;
+    selection-background-color: #0078D7; /* Adjust to match the selection color */
+    selection-color: white;
+}
+
+QCalendarWidget QHeaderView {
+    background-color: white;
+}
+
+QCalendarWidget QToolButton {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+QCalendarWidget QToolButton:hover {
+    background-color: #e6e6e6;
+}
+
+QCalendarWidget QToolButton:pressed {
+    background-color: #cccccc;
+}
+
+QCalendarWidget QTableView {
+    background-color: white;
+}
+
+QCalendarWidget QTableView:item {
+    background-color: white;
+    color: black;
+}
+
+QCalendarWidget QTableView:item:selected {
+    background-color: #0078D7;
+    color: white;
+}</string>
+            </property>
+            <property name="calendarPopup">
+             <bool>true</bool>
+            </property>
+            <property name="date">
+             <date>
+              <year>2000</year>
+              <month>1</month>
+              <day>3</day>
+             </date>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+    font-size: 13px;
+    font-weight: bold;
+    color: white; /* Dark blue/gray for a modern look */
+    background: transparent;
+	border: none;
+}
+</string>
+            </property>
+            <property name="inputMethodHints">
+             <set>Qt::ImhUppercaseOnly</set>
+            </property>
+            <property name="text">
+             <string>Sex</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="choosesex">
+            <property name="styleSheet">
+             <string notr="true">QComboBox {
+    background-color: white;
+    border: 1px solid #B8D5E7;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 12px;
+    color: #215988;
+    selection-background-color: #FF5929;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Highlight effect when focused */
+QComboBox:focus {
+    border: 1px solid #FF5929;
+    box-shadow: 0px 0px 5px rgba(255, 89, 41, 0.3);
+    background-color: white;
+}
+
+/* Style the popup list */
+QComboBox QAbstractItemView {
+    background: white;
+    border: 1px solid #B8D5E7;
+    selection-background-color: #FF5929;
+    color: #21
+}</string>
+            </property>
+            <item>
+             <property name="text">
+              <string>Select Sex</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Male</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Female</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_6">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+    font-size: 13px;
+    font-weight: bold;
+    color: white; /* Dark blue/gray for a modern look */
+    background: transparent;
+	border: none;
+}
+</string>
+            </property>
+            <property name="text">
+             <string>Role</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="chooserole">
+            <property name="contextMenuPolicy">
+             <enum>Qt::DefaultContextMenu</enum>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QComboBox {
+    background-color: white;
+    border: 1px solid #B8D5E7;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 12px;
+    color: #215988;
+    selection-background-color: #FF5929;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Highlight effect when focused */
+QComboBox:focus {
+    border: 1px solid #FF5929;
+    box-shadow: 0px 0px 5px rgba(255, 89, 41, 0.3);
+    background-color: white;
+
+}
+
+/* Style the popup list */
+QComboBox QAbstractItemView {
+    background: white;
+    border: 1px solid #B8D5E7;
+    selection-background-color: #FF5929;
+    color: #21
+}</string>
+            </property>
+            <item>
+             <property name="text">
+              <string>Select Role</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Faculty</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Student</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="department">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+    font-size: 13px;
+    font-weight: bold;
+    color: white; /* Dark blue/gray for a modern look */
+    background: transparent;
+	border: none;
+}
+</string>
+            </property>
+            <property name="text">
+             <string>Department</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="choosedept">
+            <property name="contextMenuPolicy">
+             <enum>Qt::DefaultContextMenu</enum>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QComboBox {
+    background-color: white;
+    border: 1px solid #B8D5E7;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 12px;
+    color: #215988;
+    selection-background-color: #FF5929;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Highlight effect when focused */
+QComboBox:focus {
+    border: 1px solid #FF5929;
+    box-shadow: 0px 0px 5px rgba(255, 89, 41, 0.3);
+    background-color: white;
+
+}
+
+/* Style the popup list */
+QComboBox QAbstractItemView {
+    background: white;
+    border: 1px solid #B8D5E7;
+    selection-background-color: #FF5929;
+    color: #21
+}</string>
+            </property>
+            <item>
+             <property name="text">
+              <string>Select Department</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Department of Industrial Technology </string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Department of Industrial Education</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Department of Engineering</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Department of Liberal Arts</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Department of Math and Sciences</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+    font-size: 13px;
+    font-weight: bold;
+    color: white; /* Dark blue/gray for a modern look */
+    background: transparent;
+	border: none;
+}
+</string>
+            </property>
+            <property name="text">
+             <string>Email Address</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="emailaddress">
+            <property name="styleSheet">
+             <string notr="true">QLineEdit {
+    background-color: white;
+    border: 1px solid #B8D5E7;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 10px;
+    color: #215988;
+    selection-background-color: #FF5929;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+QLineEdit:focus {
+    border: 1px solid #FF5929;
+    box-shadow: 0px 0px 5px rgba(255, 89, 41, 0.3);
+    background-color: white;
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="placeholderText">
+             <string>EMAIL ADDRESS</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_8">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+    font-size: 13px;
+    font-weight: bold;
+    color: white; /* Dark blue/gray for a modern look */
+    background: transparent;
+	border: none;
+}
+</string>
+            </property>
+            <property name="text">
+             <string>Password</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="r_password">
+            <property name="styleSheet">
+             <string notr="true">QLineEdit {
+    background-color: white;
+    border: 1px solid #B8D5E7;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 10px;
+    color: #215988;
+    selection-background-color: #FF5929;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+QLineEdit:focus {
+    border: 1px solid #FF5929;
+    box-shadow: 0px 0px 5px rgba(255, 89, 41, 0.3);
+    background-color: white;
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="echoMode">
+             <enum>QLineEdit::Password</enum>
+            </property>
+            <property name="placeholderText">
+             <string>PASSWORD</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_9">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+    font-size: 13px;
+    font-weight: bold;
+    color: white; /* Dark blue/gray for a modern look */
+    background: transparent;
+	border: none;
+}
+</string>
+            </property>
+            <property name="text">
+             <string>Confirm Password</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="r_confirmpassword">
+            <property name="styleSheet">
+             <string notr="true">QLineEdit {
+    background-color: white;
+    border: 1px solid #B8D5E7;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 10px;
+    color: #215988;
+    selection-background-color: #FF5929;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+QLineEdit:focus {
+    border: 1px solid #FF5929;
+    box-shadow: 0px 0px 5px rgba(255, 89, 41, 0.3);
+    background-color: white;
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="echoMode">
+             <enum>QLineEdit::Password</enum>
+            </property>
+            <property name="placeholderText">
+             <string>CONFIRM PASSWORD</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="submit_btn">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>41</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>41</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, 
+                                      stop:0 #1E5CFF, stop:1 #004DFF);
+    color: white;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, 
+                                      stop:0 #004DFF, stop:1 #003BB8);
+}
+
+QPushButton:pressed {
+    background-color: #003BB8;
+    transform: scale(0.98);
+}
+</string>
+            </property>
+            <property name="text">
+             <string>Submit</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>5</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="3">
+        <widget class="QFrame" name="frame_3">
+         <property name="styleSheet">
+          <string notr="true">QFrame {
+    background: transparent;
+    border: none;
+    border-radius: 15px; /* Keep rounded corners */
+}
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="1" column="2">
+           <widget class="QPushButton" name="login">
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    background: transparent; /* No background */
+    border: none; /* No border */
+    color: white; /* Blue text */
+    font-size: 16px;
+	font-weight: bold;
+    font-family: &quot;Poppins&quot;, &quot;Arial&quot;, &quot;Helvetica&quot;, sans-serif;
+    text-decoration: underline; /* Underlined text */
+    cursor: pointer; /* Pointer cursor */
+}
+
+/* Hover effect */
+QPushButton:hover {
+    color: #98D2C0; /* Darker blue on hover */
+}
+
+/* Pressed effect */
+QPushButton:pressed {
+    color: white; /* Soft pink when clicked */
+}
+</string>
+            </property>
+            <property name="text">
+             <string>Login</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="1" column="3">
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLabel" name="label_11">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+    font-size: 15px;
+    font-weight: bold;
+    color: white; /* Dark blue/gray for a modern look */
+    background: transparent;
+	border: none;
+}
+</string>
+            </property>
+            <property name="text">
+             <string>Already have an account?</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <spacer name="horizontalSpacer_9">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Fixed</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>180</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="0">
+        <spacer name="horizontalSpacer_8">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Fixed</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>180</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="label">
+         <property name="styleSheet">
+          <string notr="true">QLabel{
+    font-size: 20px;
+    font-weight: bold;
+    color: white; /* Dark blue/gray for a modern look */
+    background: transparent;
+	border: none;
+}
+</string>
+         </property>
+         <property name="text">
+          <string>Register</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <spacer name="horizontalSpacer_3">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="2" column="1">
+     <spacer name="verticalSpacer_6">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="1" column="2">
+     <spacer name="horizontalSpacer_4">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="0" column="1">
+     <spacer name="verticalSpacer_5">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="Resources/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

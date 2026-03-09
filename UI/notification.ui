@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>684</width>
+    <height>691</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>684</width>
+    <height>691</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>684</width>
+    <height>691</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: white;</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="notification_label">
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+    background-color: transparent; /* Transparent background */
+    color: black; /* Text color */
+    font-family: 'Poppins', 'Arial', 'Helvetica', sans-serif; /* Font stack: Poppins first, then Arial or Helvetica */
+    font-size: 25px; /* Font size of 25 */
+	font-weight: bold;
+    border: none; /* Remove border */
+    padding: 5px; /* Optional padding */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>NOTIFICATION</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="notif_count">
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+    background-color: #4335A7; /* Transparent background */
+    color: white; /* Text color */
+    font-family: 'Poppins', 'Arial', 'Helvetica', sans-serif; /* Font stack: Poppins first, then Arial or Helvetica */
+    font-size: 20px; /* Font size of 25 */
+	font-weight: bold;
+	border-radius: 15px;
+    border: none; /* Remove border */
+    padding: 5px; /* Optional padding */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>383</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QListWidget" name="notif_content">
+     <property name="mouseTracking">
+      <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QListView {
+    background-color: #D8DBBD; /* Dark background color for the list view */
+    border-radius: 10px; /* Rounded corners for the list view */
+    padding: 5px;
+    border: 2px solid #2C3E50; /* Border for the list view */
+}
+
+QListView::item {
+    background-color: #384B70; /* Darker background for each item */
+    color: white; /* White text for each item */
+    font-size: 20px; /* Larger font size */
+    font-family: Arial, Helvetica, sans-serif; /* Optional: change font family */
+    font-weight: bold; /* Bold font */
+    border-radius: 8px; /* Rounded corners for each item */
+    padding: 10px;
+    margin: 5px 0; /* Space between items */
+}
+
+QListView::item:selected {
+    background-color: #1F2B3A; /* Even darker background when an item is selected */
+    color: white; /* White text when selected */
+    font-size: 20px; /* Ensure selected item has the same font size */
+    font-weight: bold; /* Bold font */
+}
+
+QListView::item:hover {
+    background-color: #33415C; /* Slightly lighter dark color when hovering */
+    color: white; /* White text when hovering */
+    font-size: 20px; /* Ensure hovered item has the same font size */
+    font-weight: bold; /* Bold font */
+}
+
+QListView::item:checked {
+    background-color: #3C5A76; /* Darker blue-gray background for checked items */
+    color: white; /* White text when item is checked */
+    font-size: 20px; /* Ensure checked item has the same font size */
+    font-weight: bold; /* Bold font */
+}
+</string>
+     </property>
+     <property name="viewMode">
+      <enum>QListView::ListMode</enum>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,155 @@
+
+CREATE DATABASE axis;
+
+USE axis;
+
+CREATE TABLE user_account (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id VARCHAR(20) UNIQUE,
+    first_name VARCHAR(50),
+    middle_name VARCHAR(50),
+    last_name VARCHAR(50),
+    suffix VARCHAR(10),
+    birthdate DATE,
+    sex ENUM('Male', 'Female', 'Other'),
+    role ENUM('Student', 'Faculty'),
+    department VARCHAR(100),
+    emailaddress VARCHAR(255),
+    password VARCHAR(100),
+    qr_token VARCHAR(100),
+    status ENUM('pending', 'approved', 'rejected'),
+    created_at TIMESTAMP,
+    date_approved TIMESTAMP
+);
+
+CREATE TABLE examination_form (
+    exam_id VARCHAR(6),
+    created_by VARCHAR(20),
+    time_limit VARCHAR(10),
+    major_exam_type VARCHAR(50),
+    semester ENUM('1st Semester', '2nd Semester'),
+    subject_code VARCHAR(20),
+    exam_part VARCHAR(50),
+    number_of_items INT,
+    exam_type VARCHAR(50),
+    exam_date TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+    schedule_time VARCHAR(50),
+    exam_status VARCHAR(20),
+    PRIMARY KEY (exam_id, exam_part),
+    FOREIGN KEY (created_by) REFERENCES user_account(user_id)
+        ON DELETE SET NULL ON UPDATE CASCADE
+);
+
+CREATE TABLE identification_exam (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    exam_id VARCHAR(6),
+    description TEXT,
+    question TEXT,
+    correct_answer TEXT,
+    is_published VARCHAR(20),
+    FOREIGN KEY (exam_id) REFERENCES examination_form(exam_id)
+        ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE multiple_choice_exam (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    exam_id VARCHAR(6),
+    description TEXT,
+    question TEXT,
+    option_a TEXT,
+    option_b TEXT,
+    option_c TEXT,
+    option_d TEXT,
+    correct_answer ENUM('A', 'B', 'C', 'D'),
+    is_published VARCHAR(20),
+    FOREIGN KEY (exam_id) REFERENCES examination_form(exam_id)
+        ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE true_false_exam (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    exam_id VARCHAR(6),
+    description TEXT,
+    question TEXT,
+    correct_answer ENUM('True', 'False'),
+    is_published VARCHAR(255),
+    FOREIGN KEY (exam_id) REFERENCES examination_form(exam_id)
+        ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE student_answers (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    exam_id VARCHAR(6),
+    student_id VARCHAR(20),
+    major_exam_type ENUM('Prelim', 'Midterm', 'Finals'),
+    start_time TIMESTAMP,
+    end_time TIMESTAMP,
+    score INT,
+    status ENUM('Not Started', 'Completed'),
+    question_id INT,
+    answer TEXT,
+    is_correct TINYINT(1),
+    FOREIGN KEY (exam_id) REFERENCES examination_form(exam_id)
+        ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (student_id) REFERENCES user_account(user_id)
+        ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE student_performance (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    student_id VARCHAR(20),
+    subject_code VARCHAR(20),
+    prelim_score DECIMAL(5,2),
+    midterm_score DECIMAL(5,2),
+    finals_score DECIMAL(5,2),
+    final_grade DECIMAL(5,2),
+    FOREIGN KEY (student_id) REFERENCES user_account(user_id)
+        ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+
+CREATE TABLE notifications (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    sender_id VARCHAR(20),      -- e.g., system, user, etc.
+    recipient_role ENUM('Admin', 'Faculty', 'Student'),
+    recipient_id VARCHAR(20) DEFAULT NULL,  -- optional (null = all of the role)
+    message TEXT NOT NULL,
+    is_read BOOLEAN DEFAULT FALSE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (sender_id) REFERENCES user_account(user_id)
+        ON DELETE SET NULL ON UPDATE CASCADE
+);
+
+ALTER TABLE examination_form 
+DROP PRIMARY KEY,
+ADD PRIMARY KEY (exam_id, exam_part);
+
+ALTER TABLE examination_form MODIFY schedule_time VARCHAR(20);
+
+ALTER TABLE multiple_choice_exam ADD COLUMN part INT;
+ALTER TABLE true_false_exam ADD COLUMN part INT;
+ALTER TABLE identification_exam ADD COLUMN part INT;
+
+
+ALTER TABLE multiple_choice_exam ADD COLUMN question_num INT;
+ALTER TABLE true_false_exam ADD COLUMN question_num INT;
+ALTER TABLE identification_exam ADD COLUMN question_num INT;
+ALTER TABLE student_answers MODIFY COLUMN major_exam_type VARCHAR(50);
+
+ALTER TABLE student_answers
+DROP COLUMN score;
+
+ALTER TABLE student_performance
+    MODIFY prelim_score INT,
+    MODIFY midterm_score INT,
+    MODIFY finals_score INT;
+
+ALTER TABLE user_account
+ADD COLUMN profile_image VARCHAR(255);
+
+
+ALTER TABLE multiple_choice_exam MODIFY id VARCHAR(10);
+ALTER TABLE true_false_exam MODIFY id VARCHAR(10);
+ALTER TABLE identification_exam MODIFY id VARCHAR(10);
+
+ALTER TABLE student_answers MODIFY question_id VARCHAR(10);

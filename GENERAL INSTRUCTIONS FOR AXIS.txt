@@ -1,0 +1,18 @@
+GENERAL INSTRUCTIONS FOR AXIS:
+
+STEPS:
+1. Set-up new connection in MySQL (see the details below)
+	
+	SQL CONNECTION DETAILS:
+	Connection Name: AXIS
+		host = localhost 
+                user = root
+                password = TUPCcoet@23!
+
+2. After creating new connection, use the "axis_sql_query.txt" to copy the code for database creation to be found inside folder.
+3. For better user experience we suggest to turn your system theme into light mode. 
+3. Run the "AXIS" app found in the folder
+4. For Admin Log-in use the following credentials:
+	Username: TUPC-A-2025
+	Password: axisadmin_2025
+		

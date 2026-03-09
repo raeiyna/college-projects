@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>930</width>
+    <height>783</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>40</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>100</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>100</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget {
+    border: 3px solid #5B9BD5;  /* Border color */
+    border-radius: 50%;         /* Ensures a circular shape */
+    background-color: none;/* Set profile picture */
+	background-image: url(:/profile/profile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;  /* Ensures the image scales inside without cropping */
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>130</y>
+     <width>191</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>141</width>
+     <height>131</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>191</width>
+     <height>181</height>
+    </size>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Examination Management System/UI/Resources/LOGO.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>20</y>
+     <width>721</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>721</width>
+     <height>461</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox {
+    border: 2px solid #3aa6b9; /* Greenish-blue border */
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #f9f9e0; /* Light pastel green background */
+    padding: 10px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    padding: 4px 12px;
+    background-color: #3aa6b9; /* Greenish-blue title background */
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+</string>
+   </property>
+   <property name="title">
+    <string>Question 1:</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_4">
+    <item row="3" column="1">
+     <spacer name="horizontalSpacer_12">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>109</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="0" column="0" colspan="2">
+     <widget class="QTextEdit" name="textEdit">
+      <property name="styleSheet">
+       <string notr="true">QTextEdit {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-size: 14px;
+    transition: border 0.2s ease-in-out;
+    background-color: white;
+}
+
+QTextEdit:focus {
+    border: 2px solid #00cc00; /* Bright green */
+    outline: none;
+}
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>Enter Question 1...</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <layout class="QGridLayout" name="gridLayout_5">
+      <item row="0" column="0">
+       <widget class="QRadioButton" name="radioButton_13">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QRadioButton {
+    spacing: 10px;
+    font-size: 14px;
+	background-color: none;
+}
+
+QRadioButton::indicator {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    background: white;
+}
+
+QRadioButton::indicator:checked {
+    background: #00cc00;  /* Adjust to match your design */
+    border: 2px solid #3373B9;
+}
+
+QGroupBox {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    padding: 2px 10px;
+    font-weight: bold;
+}</string>
+        </property>
+        <property name="text">
+         <string>A</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QTextEdit" name="textEdit_2">
+        <property name="minimumSize">
+         <size>
+          <width>386</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QTextEdit {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-size: 14px;
+    transition: border 0.2s ease-in-out;
+    background-color: white;
+}
+
+QTextEdit:focus {
+    border: 2px solid #00cc00; /* Bright green */
+    outline: none;
+}
+</string>
+        </property>
+        <property name="placeholderText">
+         <string>Choice A</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QRadioButton" name="radioButton_14">
+        <property name="styleSheet">
+         <string notr="true">QRadioButton {
+    spacing: 10px;
+    font-size: 14px;
+	background-color: none;
+}
+
+QRadioButton::indicator {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    background: white;
+}
+
+QRadioButton::indicator:checked {
+    background: #00cc00;  /* Adjust to match your design */
+    border: 2px solid #3373B9;
+}
+
+QGroupBox {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    padding: 2px 10px;
+    font-weight: bold;
+}</string>
+        </property>
+        <property name="text">
+         <string>B</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QTextEdit" name="textEdit_3">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>38</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>386</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QTextEdit {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-size: 14px;
+    transition: border 0.2s ease-in-out;
+    background-color: white;
+}
+
+QTextEdit:focus {
+    border: 2px solid #00cc00; /* Bright green */
+    outline: none;
+}
+</string>
+        </property>
+        <property name="placeholderText">
+         <string>Choice B</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QRadioButton" name="radioButton_15">
+        <property name="styleSheet">
+         <string notr="true">QRadioButton {
+    spacing: 10px;
+    font-size: 14px;
+	background-color: none;
+}
+
+QRadioButton::indicator {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    background: white;
+}
+
+QRadioButton::indicator:checked {
+    background: #00cc00;  /* Adjust to match your design */
+    border: 2px solid #3373B9;
+}
+
+QGroupBox {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    padding: 2px 10px;
+    font-weight: bold;
+}</string>
+        </property>
+        <property name="text">
+         <string>C</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QTextEdit" name="textEdit_4">
+        <property name="minimumSize">
+         <size>
+          <width>386</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QTextEdit {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-size: 14px;
+    transition: border 0.2s ease-in-out;
+    background-color: white;
+}
+
+QTextEdit:focus {
+    border: 2px solid #00cc00; /* Bright green */
+    outline: none;
+}
+</string>
+        </property>
+        <property name="placeholderText">
+         <string>Choice C</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QRadioButton" name="radioButton_16">
+        <property name="styleSheet">
+         <string notr="true">QRadioButton {
+    spacing: 10px;
+    font-size: 14px;
+	background-color: none;
+}
+
+QRadioButton::indicator {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    background: white;
+}
+
+QRadioButton::indicator:checked {
+    background: #00cc00;  /* Adjust to match your design */
+    border: 2px solid #3373B9;
+}
+
+QGroupBox {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    padding: 2px 10px;
+    font-weight: bold;
+}</string>
+        </property>
+        <property name="text">
+         <string>D</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QTextEdit" name="textEdit_5">
+        <property name="minimumSize">
+         <size>
+          <width>386</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QTextEdit {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-size: 14px;
+    transition: border 0.2s ease-in-out;
+    background-color: white;
+}
+
+QTextEdit:focus {
+    border: 2px solid #00cc00; /* Bright green */
+    outline: none;
+}
+</string>
+        </property>
+        <property name="placeholderText">
+         <string>Choice D</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_8">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size: 15px;
+font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Correct Answer:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QComboBox" name="comboBox_4">
+      <property name="minimumSize">
+       <size>
+        <width>78</width>
+        <height>38</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+    background-color: white;
+    border: 1px solid #B8D5E7;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 15px;
+    color: #215988;
+    selection-background-color: #FF5929;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Highlight effect when focused */
+QComboBox:focus {
+    border: 1px solid #00cc00;
+    box-shadow: 0px 0px 5px rgba(255, 89, 41, 0.3);
+    background-color: white;
+}
+
+/* Style the popup list */
+QComboBox QAbstractItemView {
+    background: white;
+    border: 1px solid #B8D5E7;
+    selection-background-color: #00cc00;
+    color: #21
+}</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>A</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>B</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>D</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
