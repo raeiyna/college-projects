@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>chapter2page2</class>
+ <widget class="QMainWindow" name="chapter2page2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1102</width>
+    <height>843</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1102</width>
+    <height>843</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1102</width>
+    <height>843</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="bg">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1102</width>
+      <height>843</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1102</width>
+      <height>843</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1102</width>
+      <height>843</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../reso/bg.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="languagestudies">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>110</y>
+      <width>311</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    QTextEdit {
+        background: transparent;
+        font-family: &quot;Times New Roman&quot;;
+        font-size: 10pt;
+        border: none;
+    }
+
+</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;docs-internal-guid-179d27bc-7fff-cec3-cd63-ea076485df8f&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; color:#000000; background-color:transparent;&quot;&gt;R&lt;/span&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; color:#000000; background-color:transparent;&quot;&gt;izal’s Language and Cultural Studies&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="languagestudies1">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>180</y>
+      <width>421</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    QTextEdit {
+        background: transparent;
+        font-family: &quot;Times New Roman&quot;;
+        font-size: 10pt;
+        border: none;
+    }
+
+</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:138%;&quot;&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt;While in Europe, José Rizal mastered multiple languages, including Spanish, French, German, and Italian, enhancing his access to progressive literature and ideas. Influenced by thinkers like &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#000000;&quot;&gt;Voltaire&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#000000;&quot;&gt;Rousseau&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#000000;&quot;&gt;Schiller&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt;, and &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#000000;&quot;&gt;Kant&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt;, he expanded his intellectual horizons and strengthened his advocacy for reform. His linguistic skills also connected him with fellow reform-minded Filipinos and facilitated his writing of &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; font-style:italic; color:#000000;&quot;&gt;Noli Me Tangere&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt; and &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; font-style:italic; color:#000000;&quot;&gt;El Filibusterismo&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt; in Spanish.      &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:138%;&quot;&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt;  &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:138%;&quot;&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt;In 1885, Rizal earned his medical degree from the Universidad Central de Madrid and a Bachelor of Arts in Philosophy and Letters. Specializing in ophthalmology, he gained recognition as an eye doctor, driven by his goal to treat his mother’s eye condition. Further training in Paris and Germany solidified his reputation as a skilled physician.        &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="whyrizal">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>110</y>
+      <width>291</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    QTextEdit {
+        background: transparent;
+        font-family: &quot;Times New Roman&quot;;
+        font-size: 10pt;
+        border: none;
+    }
+
+</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; color:#000000;&quot;&gt;Why Rizal Chose These Fields to Study&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="whyrizal1">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>140</y>
+      <width>411</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    QTextEdit {
+        background: transparent;
+        font-family: &quot;Times New Roman&quot;;
+        font-size: 10pt;
+        border: none;
+    }
+
+</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;    &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt;    &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:138%;&quot;&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt;José Rizal pursued medicine to address his mother’s blindness and to serve as a healer in a colonial system that neglected Filipino health needs. His study of philosophy and letters stemmed from a passion for intellectual exploration and a desire to use philosophical ideas to advocate for Filipino rights and challenge colonial oppression.    &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:138%;&quot;&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt;    &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:138%;&quot;&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt;Rizal’s dedication to learning languages was strategic. Mastering multiple languages allowed him to access European thought, engage in global discourse, and connect with reformist Filipinos abroad. For Rizal, language was both a tool for personal growth and a means to fight for national freedom and equality.        &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt;  &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="backbutton">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>680</y>
+      <width>51</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: #2f2018;       /* Default font color */
+    font-size: 18px;
+    font-family: &quot;Times New Roman&quot;;
+    text-decoration: underline;
+}
+
+QPushButton:hover {
+    color: red;           /* Red color on hover */
+}
+
+QPushButton:pressed {
+    color: #800000;       /* Darker red when pressed */
+}</string>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nextbutton">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>680</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: #2f2018;       /* Default font color */
+    font-size: 18px;
+    font-family: &quot;Times New Roman&quot;;
+    text-decoration: underline;
+}
+
+QPushButton:hover {
+    color: red;           /* Red color on hover */
+}
+
+QPushButton:pressed {
+    color: #800000;       /* Darker red when pressed */
+}</string>
+    </property>
+    <property name="text">
+     <string>Chapter 3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="volumebutton">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>15</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exitbutton">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>15</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bmbutton">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>75</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

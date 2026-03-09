@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>chapter2page</class>
+ <widget class="QMainWindow" name="chapter2page">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1102</width>
+    <height>843</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1102</width>
+    <height>843</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1102</width>
+    <height>843</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="bg">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1102</width>
+      <height>843</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1102</width>
+      <height>843</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1102</width>
+      <height>843</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../reso/bg.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="chapter2logo">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>300</y>
+      <width>411</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../reso/chapter5logo.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="earlyeduc1">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>120</y>
+      <width>421</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    QTextEdit {
+        background: transparent;
+        font-family: &quot;Times New Roman&quot;;
+        font-size: 10pt;
+        border: none;
+    }
+</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt;The &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#000000;&quot;&gt;Katipunan&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt;, a revolutionary group founded by &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#000000;&quot;&gt;Andrés Bonifacio&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt; in 1892, sought to overthrow Spanish colonial rule in the Philippines. Although José Rizal was not directly involved in the formation or actions of the Katipunan, his writings, especially &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; font-style:italic; color:#000000;&quot;&gt;Noli Me Tangere&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt; and &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; font-style:italic; color:#000000;&quot;&gt;El Filibusterismo&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt;, profoundly influenced the group’s nationalist ideals. Through his books, Rizal had shed light on the severe social injustices under Spanish rule and exposed the oppression caused by the friars, corrupt officials, and the colonial government. His works sparked a collective desire for change and inspired a generation of Filipinos, including Bonifacio, to take action.    &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:11pt; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt;Despite Rizal’s belief in peaceful reform, the ideas conveyed in his novels were interpreted by the revolutionaries as a call to action against Spanish rule. Rizal’s advocacy for social justice, equality, and freedom resonated with Filipinos who were disillusioned with the slow pace of reform and the unyielding colonial government. Although Rizal himself did not condone violent rebellion, he was undeniably linked to the revolutionary movement through his writings. His influence on the Katipunan was undeniable, and, as a result, the Spanish authorities viewed him as a dangerous figure, even though he had consistently advocated for non-violent reforms rather than an armed revolution.  &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nextbutton">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>680</y>
+      <width>51</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: #2f2018;       /* Default font color */
+    font-size: 18px;
+    font-family: &quot;Times New Roman&quot;;
+    text-decoration: underline;
+}
+
+QPushButton:hover {
+    color: red;           /* Red color on hover */
+}
+
+QPushButton:pressed {
+    color: #800000;       /* Darker red when pressed */
+}</string>
+    </property>
+    <property name="text">
+     <string>Next</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exitbutton">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>15</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="volumebutton">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>15</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bmbutton">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>75</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="katipunan">
+    <property name="geometry">
+     <rect>
+      <x>605</x>
+      <y>118</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Katipunan</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="andres">
+    <property name="geometry">
+     <rect>
+      <x>564</x>
+      <y>138</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Andres Bonifacio</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

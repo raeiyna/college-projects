@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1102</width>
+    <height>843</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="bg">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1101</width>
+      <height>851</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../reso/bg.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exitbutton">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>15</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="backbutton">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>680</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: #2f2018;    
+    font-size: 18px;
+    font-family: &quot;Times New Roman&quot;;
+    text-decoration: underline;
+}
+
+QPushButton:hover {
+    color: red;         
+}
+
+QPushButton:pressed {
+    color: #6d0705;       
+}</string>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tablelogo">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>300</y>
+      <width>381</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../reso/tablelogo.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="chapteslabel">
+    <property name="geometry">
+     <rect>
+      <x>605</x>
+      <y>340</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    border: none;
+    color: #2f2018;    
+    font-size: 18px;
+    font-family: &quot;Times New Roman&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Chapters:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="prologuebutton">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>360</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: #2f2018;    
+    font-size: 18px;
+    font-family: &quot;Times New Roman&quot;;
+    text-decoration: underline;
+}
+
+QPushButton:hover {
+    color: red;         
+}
+
+QPushButton:pressed {
+    color: #6d0705;       
+}</string>
+    </property>
+    <property name="text">
+     <string>Prologue</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="chapter1button">
+    <property name="geometry">
+     <rect>
+      <x>623</x>
+      <y>400</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: #2f2018;    
+    font-size: 18px;
+    font-family: &quot;Times New Roman&quot;;
+    text-decoration: underline;
+}
+
+QPushButton:hover {
+    color: red;         
+}
+
+QPushButton:pressed {
+    color: #6d0705;       
+}</string>
+    </property>
+    <property name="text">
+     <string>Chapter 1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="chapter2button">
+    <property name="geometry">
+     <rect>
+      <x>619</x>
+      <y>440</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: #2f2018;    
+    font-size: 18px;
+    font-family: &quot;Times New Roman&quot;;
+    text-decoration: underline;
+}
+
+QPushButton:hover {
+    color: red;         
+}
+
+QPushButton:pressed {
+    color: #6d0705;       
+}</string>
+    </property>
+    <property name="text">
+     <string>Chapter 2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="chapter3button">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>480</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: #2f2018;    
+    font-size: 18px;
+    font-family: &quot;Times New Roman&quot;;
+    text-decoration: underline;
+}
+
+QPushButton:hover {
+    color: red;         
+}
+
+QPushButton:pressed {
+    color: #6d0705;       
+}</string>
+    </property>
+    <property name="text">
+     <string>Chapter 3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="chapter4button">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>520</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: #2f2018;    
+    font-size: 18px;
+    font-family: &quot;Times New Roman&quot;;
+    text-decoration: underline;
+}
+
+QPushButton:hover {
+    color: red;         
+}
+
+QPushButton:pressed {
+    color: #6d0705;       
+}</string>
+    </property>
+    <property name="text">
+     <string>Chapter 4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="chapter5button">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>560</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: #2f2018;    
+    font-size: 18px;
+    font-family: &quot;Times New Roman&quot;;
+    text-decoration: underline;
+}
+
+QPushButton:hover {
+    color: red;         
+}
+
+QPushButton:pressed {
+    color: #6d0705;       
+}</string>
+    </property>
+    <property name="text">
+     <string>Chapter 5</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="epiloguebutton">
+    <property name="geometry">
+     <rect>
+      <x>618</x>
+      <y>600</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: #2f2018;    
+    font-size: 18px;
+    font-family: &quot;Times New Roman&quot;;
+    text-decoration: underline;
+}
+
+QPushButton:hover {
+    color: red;         
+}
+
+QPushButton:pressed {
+    color: #6d0705;       
+}</string>
+    </property>
+    <property name="text">
+     <string>Epilogue</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="volumebutton">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>15</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="landingpagelabel">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>603</x>
+      <y>185</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    border: none;
+    color: #2f2018;    
+    font-size: 18px;
+    font-family: &quot;Times New Roman&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Landing Page</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="aboutlabel">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>603</x>
+      <y>220</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    border: none;
+    color: #2f2018;    
+    font-size: 18px;
+    font-family: &quot;Times New Roman&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>About</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tablelabel">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>603</x>
+      <y>260</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    border: none;
+    color: #2f2018;    
+    font-size: 18px;
+    font-family: &quot;Times New Roman&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Table of Contents</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dedicationlabel">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>605</x>
+      <y>300</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    border: none;
+    color: #2f2018;    
+    font-size: 18px;
+    font-family: &quot;Times New Roman&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Dedication Page</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nextbutton">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>680</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: #2f2018;    
+    font-size: 18px;
+    font-family: &quot;Times New Roman&quot;;
+    text-decoration: underline;
+}
+
+QPushButton:hover {
+    color: red;         
+}
+
+QPushButton:pressed {
+    color: #6d0705;       
+}</string>
+    </property>
+    <property name="text">
+     <string>Next</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="searchbutton">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>83</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1102</width>
+    <height>843</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1102</width>
+    <height>843</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1102</width>
+    <height>843</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="bg">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1102</width>
+      <height>843</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1102</width>
+      <height>843</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1102</width>
+      <height>843</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../reso/bg.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>100</y>
+      <width>431</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    QTextEdit {
+        background: transparent;
+        font-family: &quot;Times New Roman&quot;;
+        font-size: 10pt;
+        border: none;
+    }
+</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:138%;&quot;&gt;&lt;a name=&quot;docs-internal-guid-355f87bf-7fff-a452-085d-92c28363702a&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#000000; background-color:transparent;&quot;&gt;E&lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#000000; background-color:transparent;&quot;&gt;arly Involvement in the Reform Movement&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;While in Europe, Rizal was exposed to progressive European thought, including the ideas of &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#000000; background-color:transparent;&quot;&gt;liberalism&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;, nationalism, and human rights. Rizal joined Filipino &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#000000; background-color:transparent;&quot;&gt;expatriates&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt; in Madrid, Paris, and Berlin, who were also advocating for reforms in the Philippines. These Filipino reformists sought greater political representation, the abolition of the &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#000000; background-color:transparent;&quot;&gt;monopoly&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt; of the &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#000000; background-color:transparent;&quot;&gt;Spanish friars&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;, and the recognition of Filipinos' rights as Spanish citizens. Rizal’s growing involvement in these reformist circles signaled the beginning of his transformation from a scholar into an active voice for national change.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_2">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>420</y>
+      <width>441</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    QTextEdit {
+        background: transparent;
+        font-family: &quot;Times New Roman&quot;;
+        font-size: 10pt;
+        border: none;
+    }
+</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;docs-internal-guid-f66505e7-7fff-c887-0c4c-9ebce3bbcf50&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; color:#000000; background-color:transparent;&quot;&gt;Noli Me Tangere&amp;quot; (1887): Exposing the Colonial Reality&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;In 1887, Rizal published his first novel, &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-style:italic; color:#000000; background-color:transparent;&quot;&gt;Noli Me Tangere&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-style:italic; color:#000000; background-color:transparent;&quot;&gt;Touch Me Not&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;), a powerful social commentary that challenged the deeply ingrained corruption and oppression perpetuated by the Spanish colonial authorities. This novel was a direct critique of the Spanish friars, who held immense power over both the religious and social lives of Filipinos, and the colonial government, which systematically exploited the Filipino population. Through vivid characters such as Ibarra,&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_3">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>100</y>
+      <width>421</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    QTextEdit {
+        background: transparent;
+        font-family: &quot;Times New Roman&quot;;
+        font-size: 10pt;
+        border: none;
+    }
+</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;Sisa, and Elias, Rizal exposed the harsh realities of Filipino life under Spanish rule. &lt;/span&gt;&lt;a name=&quot;docs-internal-guid-5912ceaa-7fff-3ead-2b16-6569d68dffb8&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;T&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;he publication of &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-style:italic; color:#000000; background-color:transparent;&quot;&gt;Noli Me Tangere&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt; caused an uproar among the Spanish authorities and friars. They saw the novel as a direct threat to their control and power. Spanish officials, including the Church, condemned the book, calling it blasphemous and subversive. Despite this, the novel became immensely popular among Filipinos, who saw it as a call for unity and a voice for their long-suffered plight. It sparked a renewed sense of nationalism and a desire for change, resonating with those who were yearning for &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#000000; background-color:transparent;&quot;&gt;justice&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#000000; background-color:transparent;&quot;&gt;equality&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;, and &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#000000; background-color:transparent;&quot;&gt;freedom&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt; from colonial oppression.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_4">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>370</y>
+      <width>421</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    QTextEdit {
+        background: transparent;
+        font-family: &quot;Times New Roman&quot;;
+        font-size: 10pt;
+        border: none;
+    }
+</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; color:#000000; background-color:transparent;&quot;&gt;&amp;quot;El Filibusterismo&amp;quot; (1891): A More Radical Call for Revolution&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;In 1891, Rizal published his second novel,  &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-style:italic; color:#000000; background-color:transparent;&quot;&gt;El Filibusterismo &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;(The Reign of Greed), which presented an even more radical perspective on the Philippine struggle for &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#000000; background-color:transparent;&quot;&gt;independence&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;. While &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-style:italic; color:#000000; background-color:transparent;&quot;&gt;Noli Me Tangere d&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;epicted the sufferings and injustices faced by Filipinos under Spanish rule, &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-style:italic; color:#000000; background-color:transparent;&quot;&gt;El Filibusterismo &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;took a more &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#000000; background-color:transparent;&quot;&gt;revolutionary&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt; tone, highlighting the potential for armed resistance. Through the character of Simoun, a revolutionary who seeks vengeance and justice through violent means, Rizal portrayed the frustrations of Filipinos who, after enduring years of exploitation, might see violent uprising as the only solution to their problems.    &lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;  &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="backbutton">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>680</y>
+      <width>51</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: #2f2018;       /* Default font color */
+    font-size: 18px;
+    font-family: &quot;Times New Roman&quot;;
+    text-decoration: underline;
+}
+
+QPushButton:hover {
+    color: red;           /* Red color on hover */
+}
+
+QPushButton:pressed {
+    color: #800000;       /* Darker red when pressed */
+}</string>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nextbutton">
+    <property name="geometry">
+     <rect>
+      <x>932</x>
+      <y>680</y>
+      <width>51</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: #2f2018;       /* Default font color */
+    font-size: 18px;
+    font-family: &quot;Times New Roman&quot;;
+    text-decoration: underline;
+}
+
+QPushButton:hover {
+    color: red;           /* Red color on hover */
+}
+
+QPushButton:pressed {
+    color: #800000;       /* Darker red when pressed */
+}</string>
+    </property>
+    <property name="text">
+     <string>Next</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bmbutton">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>75</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="volumebutton">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>15</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exitbutton">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>15</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>190</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="e">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>240</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="m">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>300</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="friars">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>300</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="justice">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>330</y>
+      <width>55</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="equality">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>340</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="freedom">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>340</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="i">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>500</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="r">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>570</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

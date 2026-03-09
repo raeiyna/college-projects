@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>chapter1_2</class>
+ <widget class="QMainWindow" name="chapter1_2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1101</width>
+    <height>851</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1101</width>
+    <height>851</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1101</width>
+    <height>851</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="bg">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1101</width>
+      <height>851</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1101</width>
+      <height>851</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1101</width>
+      <height>851</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../reso/bg.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="wherehelived1">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>210</y>
+      <width>401</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    QTextEdit {
+        background: transparent;
+        font-family: &quot;Times New Roman&quot;;
+        font-size: 10pt;
+        border: none;
+    }
+</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#000000;&quot;&gt;Rizal was born and raised in a modest stone house in Calamba, Laguna, surrounded by picturesque fields and mountains. The Rizal family home was a hub of activity, where discipline, education, and culture flourished.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#000000;&quot;&gt;Later in life, Rizal lived in various places, both locally and abroad:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;- Manila:&lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#000000;&quot;&gt; For his studies at Ateneo and the University of Santo Tomas.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;- Madrid, Paris, Berlin, and Heidelberg&lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#000000;&quot;&gt;: For his education and work as a writer and reformist.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;- Dapitan: &lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#000000;&quot;&gt;During his exile, he built a productive life as a community leader, scientist, and teacher.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="backbutton">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>680</y>
+      <width>51</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: #2f2018;       /* Default font color */
+    font-size: 18px;
+    font-family: &quot;Times New Roman&quot;;
+    text-decoration: underline;
+}
+
+QPushButton:hover {
+    color: red;           /* Red color on hover */
+}
+
+QPushButton:pressed {
+    color: #800000;       /* Darker red when pressed */
+}</string>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="wherehelived">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>150</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    QTextEdit {
+        background: transparent;
+        font-family: &quot;Times New Roman&quot;;
+        font-size: 10pt;
+        border: none;
+    }
+</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; color:#000000;&quot;&gt;Where He Lived&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="pasttime1">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>210</y>
+      <width>401</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    QTextEdit {
+        background: transparent;
+        font-family: &quot;Times New Roman&quot;;
+        font-size: 10pt;
+        border: none;
+    }
+</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#000000;&quot;&gt;Rizal was a true Renaissance man, with a wide range of interests and hobbies:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:696; color:#000000;&quot;&gt;- Reading&lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#000000;&quot;&gt;: He was an avid reader, devouring works by European philosophers, writers, and scientists.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:696; color:#000000;&quot;&gt;- Writing&lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#000000;&quot;&gt;: He excelled in poetry, essays, and novels, producing influential works like &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; font-style:italic; color:#000000;&quot;&gt;Noli Me Tangere &lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#000000;&quot;&gt;and&lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; font-style:italic; color:#000000;&quot;&gt; El Filibusterismo.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:696; color:#000000;&quot;&gt;- Sketching and Painting&lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#000000;&quot;&gt;: Rizal was a talented artist who loved sketching people and landscapes.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:696; color:#000000;&quot;&gt;- Sculpting&lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#000000;&quot;&gt;: He created intricate sculptures, including one of his sister Saturnina and various religious pieces.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:696; color:#000000;&quot;&gt;- Fencing and Martial Arts&lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#000000;&quot;&gt;: Rizal was skilled in fencing and sparring, which he practiced during his time abroad.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="pasttime">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>150</y>
+      <width>361</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    QTextEdit {
+        background: transparent;
+        font-family: &quot;Times New Roman&quot;;
+        font-size: 10pt;
+        border: none;
+    }
+</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; color:#000000;&quot;&gt;Favorite Past Time Activites&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nextbutton">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>680</y>
+      <width>81</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: #2f2018;       /* Default font color */
+    font-size: 18px;
+    font-family: &quot;Times New Roman&quot;;
+    text-decoration: underline;
+}
+
+QPushButton:hover {
+    color: red;           /* Red color on hover */
+}
+
+QPushButton:pressed {
+    color: #800000;       /* Darker red when pressed */
+}</string>
+    </property>
+    <property name="text">
+     <string>Chapter 2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exitbutton">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>15</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="volumebutton">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>15</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bmbutton">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>75</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="noli">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>360</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tangere">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>380</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="elfili">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>390</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
